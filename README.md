@@ -13,9 +13,12 @@ public class FeignclientApplication {
     }  
 }   
 
-接口
+接口   
 @FeignClient(name="hello-service") //spring service name   
 public interface FeignVehicle {}   
+
+
+### 演示內容:FeignClientDemo/feignclient/src/main/java/com/tony/feignclient/FeignclientApplication.java   
 
 
 ## 接收方  
@@ -27,3 +30,5 @@ public class FeignClientDemoApplication {
     }   
 }   
 
+
+### 演示內容:FeignClientDemo/src/main/java/com/tony/feignclientdemo/FeignClientDemoApplication.java   
