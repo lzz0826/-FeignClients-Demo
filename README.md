@@ -23,7 +23,7 @@ public interface FeignVehicle {}
 
 
 ### 演示內容:FeignClientDemo/feignclient/src/main/java/com/tony/feignclient/FeignclientApplication.java   
-http://localhost:8080/test/setMsgRun/你好/
+http://localhost:8080/test/setMsgRun/你好/001  
 
 ![image](https://github.com/lzz0826/Microservices-FeignClients-Demo/blob/main/jpg/2022-12-23%205.13.05.png)
 
