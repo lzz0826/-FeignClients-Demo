@@ -13,11 +13,12 @@ public class FeignclientApplication {
     }  
 }   
 
+接口
 @FeignClient(name="hello-service") //spring service name   
 public interface FeignVehicle {}   
 
 
-##3 接收方  
+## 接收方  
 @EnableEurekaClient   
 @SpringBootApplication    
 public class FeignClientDemoApplication {   
